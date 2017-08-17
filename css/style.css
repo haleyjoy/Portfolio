@@ -1,0 +1,172 @@
+html, body {
+  overflow-x:hidden;
+}
+body {
+  font-family: "Muli", Helvetica, Arial, sans-serif;
+  color: #333333;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Noto Sans", Helvetica, Arial, sans-serif;
+}
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 5px;
+ color:#5BA1D6;
+}
+p {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 100;
+}
+
+/* GRID */
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+}
+.container:before,
+.container:after {
+  content: " ";
+  display: table;
+}
+.container:after {
+  clear:both;
+}
+.one-half, .one-third, .one-fourth {
+  width: 96%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  margin: 0 2% 20px;
+}
+
+/* Media Queries*/
+
+
+@media (min-width: 768px) {
+.container {
+    width: 750px;
+  }
+}
+@media (min-width: 992) {
+  .container {
+    width: 970px;
+  }
+}
+.one-half {
+  width: 46%;
+}
+.one-third {
+  width: 29.33333%;
+}
+.one-fourth {
+  width: 21%;
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+/* Media Queries Assignment */
+/* min-width of 40" tv */
+@media tv (min-width: 1920px) {
+  header .hero h1 p{
+    font-size: 150%;
+     color: #000000;
+    }
+}
+
+/* Header */
+header {
+  color: #2C3C42;
+  background: #FFFFFF;
+  /* Mask: */
+background: #FFFFFF;
+background-image: /* input */;
+}
+header nav {
+  padding: 1em;
+}
+header .site-logo img {
+    max-width: 125px;
+}
+header nav ul {
+  display: inline;
+  text-align: right;
+  float: right;
+  margin: 0;
+}
+header nav ul > li {
+  color: #E1F1FF;
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 5px;
+}
+ header nav ul > li > a {
+   color:#E26A6A;
+   text-decoration: none;
+ }
+
+
+ header .hero{
+  
+  display: block;
+  position: relative;
+ }
+ header .hero h1 {
+     left: 200px;
+	width: 560px;
+	height: 200px;
+  color: #EEA9A9;
+  font-size: 200px;
+  font-weight: normal;
+  margin: 95px 0 0;
+     margin-bottom: 35px;
+ }
+ header .hero p {
+  text-align: right;
+     width: 560px;
+  font-size: 30px;
+  line-height: 26px;
+  font-weight: 100;
+  margin: 10px 0 250px;
+ }
+ 
+ /* Buttons */
+
+.case-studies {
+    position: relative;
+    width: 100%;
+}
+.locomoda {
+    padding-top: 50px;
+    padding-bottom: 20px;
+ background-color: #A0C9E7;
+}
+.streetsweet {
+        padding-top: 50px;
+    padding-bottom: 20px;
+ background-color: #EEA9A9;
+}
+.lovenotestudios {
+        padding-top: 50px;
+    padding-bottom: 20px;
+ background-color: #F8DF94;
+}
+ .btn {
+  text-align: right;
+     margin-left: 20%;;
+  color: #FFFFFF;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 0px;
+}
+
+ h2 {
+  text-align: center;
+}
