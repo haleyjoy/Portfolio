@@ -4,6 +4,7 @@ html, body {
 body {
   font-family: "Muli", Helvetica, Arial, sans-serif;
   color: #333333;
+    margin: 0 0 0;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: "Noto Sans", Helvetica, Arial, sans-serif;
@@ -19,6 +20,7 @@ p {
   line-height: 19px;
   font-weight: 100;
 }
+
 
 /* GRID */
 
@@ -37,7 +39,7 @@ p {
 .container:after {
   clear:both;
 }
-.one-half, .one-third, .one-fourth {
+.one-half, .one-third, .one-fourth, .one-twelfth {
   width: 96%;
   float: left;
   position: relative;
@@ -67,6 +69,9 @@ p {
 .one-fourth {
   width: 21%;
 }
+.one-twelfth {
+    width: 8%;
+}
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
@@ -90,10 +95,11 @@ background: #FFFFFF;
 background-image: /* input */;
 }
 header nav {
-  padding: 1em;
+  padding: 1.5em;
 }
 header .site-logo img {
     max-width: 125px;
+    margin-bottom: -.4em;
 }
 header nav ul {
   display: inline;
@@ -106,18 +112,24 @@ header nav ul > li {
   list-style-type: none;
   display: inline-block;
   margin: 0 5px;
+    font-size: 20px;
 }
  header nav ul > li > a {
    color:#E26A6A;
    text-decoration: none;
+     font-weight: 700;
  }
 
 
  header .hero{
-  
+  clear: left;
   display: block;
   position: relative;
+          background-image: url("assets/images/hero-background.png");
+  background-color: #ffffff;
+
  }
+
  header .hero h1 {
      left: 200px;
 	width: 560px;
@@ -132,35 +144,63 @@ header nav ul > li {
   text-align: right;
      width: 560px;
   font-size: 30px;
-  line-height: 26px;
+  line-height: 42px;
   font-weight: 100;
   margin: 10px 0 250px;
- }
+     color: #2C3C42;
+font-family: "Muli", Helvetica, Arial, sans-serif; 
+}
  
  /* Buttons */
 
 .case-studies {
     position: relative;
-    width: 100%;
+    margin: 0 0 0;
+    
 }
 .locomoda {
-    padding-top: 50px;
+    
+    padding-top: 70px;
     padding-bottom: 20px;
+    background-image: url("assets/images/locomoda-section2.png");
  background-color: #A0C9E7;
 }
+
 .streetsweet {
-        padding-top: 50px;
+    padding-top: 70px;
     padding-bottom: 20px;
+    background-image: url("assets/images/streetsweet-section2.png");
+
  background-color: #EEA9A9;
 }
+
 .lovenotestudios {
-        padding-top: 50px;
+    padding-top: 70px;
     padding-bottom: 20px;
+    background-image: url("assets/images/lovenotestudios-section2.png");
  background-color: #F8DF94;
+}
+h3 {
+    
+    font-family: "Muli", Helvetica, Arial, sans-serif;
+    font-size: 40px;
+        margin-bottom: -.15em;
+    
+}
+.casestudy i {
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 25px;
+    font-size: 45px;
+
+}
+.case-studies p {
+    font-size: 20px;
+    margin-bottom: 2em;
+
 }
  .btn {
   text-align: right;
-     margin-left: 20%;;
   color: #FFFFFF;
   font-weight: 700;
   text-decoration: none;
@@ -174,19 +214,68 @@ header nav ul > li {
 .paragraph {
   display: none;
 }
-#skill-item {
-  display: block;
-}
-#skill-item:target {
-  display: block;
-}
+
 .icon-control {
   display: inline;
-  height: 50px;
-  padding: 5px;
+  height: 65px;
+  padding: 25px;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    
+    
 }
 .icon-control.active {
-  height: 100px;
+  height: 150px;
+    opacity: 1;
+    filter: alpha(opacity=100);
 }
 
+body .icons {
+    text-align: center;
 
+}
+
+.skills p {
+    line-height: 25px;
+    height: 270px;
+    padding-top: 20px;
+    padding-left: 20px;
+    
+}
+.connect {
+    margin: 0 0 0 0;
+    
+}
+.connect > ul {
+        text-align: center;
+
+
+}
+.connect > ul > li {
+    list-style-type: none;
+    font-size: 36px;
+    color: #E26A6A;
+    
+}
+h4 {
+    font-size: 18px;
+}
+.connect a {
+    text-decoration: none;
+        color: #E26A6A;
+
+}
+
+.footer {
+    height: 236px;
+    /* Rectangle: */
+background-image: linear-gradient(-180deg, rgba(255,255,255,0.00) 0%, rgba(238,169,169,0.51) 58%);
+        text-align: center;
+
+}
+.footer p {
+   padding-top: 140px;
+font-size: 18px;
+color: rgba(44,60,66,0.51);
+letter-spacing: 0;
+}
