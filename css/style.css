@@ -12,7 +12,7 @@ h2 {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 5px;
- color:#5BA1D6;
+  color:#5BA1D6;
 }
 p {
   font-size: 16px;
@@ -170,3 +170,23 @@ header nav ul > li {
  h2 {
   text-align: center;
 }
+
+.paragraph {
+  display: none;
+}
+#skill-item {
+  display: block;
+}
+#skill-item:target {
+  display: block;
+}
+.icon-control {
+  display: inline;
+  height: 50px;
+  padding: 5px;
+}
+.icon-control.active {
+  height: 100px;
+}
+
+
