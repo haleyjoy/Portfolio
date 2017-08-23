@@ -125,7 +125,7 @@ header nav ul > li {
   clear: left;
   display: block;
   position: relative;
-          background-image: url("/images/hero-background.png");
+          background-image: url("../images/hero-background.png");
   background-color: #ffffff;
 
  }
@@ -162,14 +162,14 @@ font-family: "Muli", Helvetica, Arial, sans-serif;
     
     padding-top: 70px;
     padding-bottom: 20px;
-    background-image: url("/images/locomoda-section2.png");
+    background-image: url("../images/locomoda-section2.png");
  background-color: #A0C9E7;
 }
 
 .streetsweet {
     padding-top: 70px;
     padding-bottom: 20px;
-    background-image: url("/images/streetsweet-section2.png");
+    background-image: url("../images/streetsweet-section2.png");
 
  background-color: #EEA9A9;
 }
@@ -177,7 +177,7 @@ font-family: "Muli", Helvetica, Arial, sans-serif;
 .lovenotestudios {
     padding-top: 70px;
     padding-bottom: 20px;
-    background-image: url("/images/lovenotestudios-section2.png");
+    background-image: url("../images/lovenotestudios-section2.png");
  background-color: #F8DF94;
 }
 h3 {
