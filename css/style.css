@@ -111,8 +111,8 @@ header nav ul > li {
   color: #E1F1FF;
   list-style-type: none;
   display: inline-block;
-  margin: 0 5px;
-    font-size: 20px;
+  margin: 0 4px;
+    font-size: 16px;
 }
  header nav ul > li > a {
    color:#E26A6A;
@@ -135,15 +135,15 @@ header nav ul > li {
 	width: 560px;
 	height: 200px;
   color: #EEA9A9;
-  font-size: 200px;
+  font-size: 170px;
   font-weight: normal;
   margin: 95px 0 0;
-     margin-bottom: 35px;
+     text-align: left;
  }
  header .hero p {
-  text-align: right;
+  text-align: left;
      width: 560px;
-  font-size: 30px;
+  font-size: 24px;
   line-height: 42px;
   font-weight: 100;
   margin: 10px 0 250px;
@@ -278,4 +278,179 @@ background-image: linear-gradient(-180deg, rgba(255,255,255,0.00) 0%, rgba(238,1
 font-size: 18px;
 color: rgba(44,60,66,0.51);
 letter-spacing: 0;
+}
+
+
+
+.menu {
+padding: 35px;
+    padding-bottom: 75px;
+text-align: center;
+position: relative;
+height:400px;
+    
+
+}
+.bullet {
+    text-align: left;
+    font-size: 36px;
+    color: #E26A6A;
+    margin-right:5px;
+}
+.title {
+  text-align: left; 
+
+    
+}
+h7 {
+    font-family: "Muli", Helvetica, Arial, sans-serif;
+    color: #5BA1D6;
+    font-size: 24px;
+    padding-bottom: 50px;
+}
+h8 {
+    font-size: 36px;
+    font-family: "Noto Sans", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    color: #5BA1D6;
+    text-align: left; 
+
+    
+
+    
+}
+h9 {
+    font-size: 18px;
+    font-family: "Noto Sans", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    color: #5BA1D6;
+line-height: 70px;
+}
+
+
+.blue {
+    text-align: left;
+    font-family: "Noto Sans", Helvetica, Arial, sans-serif;
+    position: relative;
+    padding-top: 35px;
+     padding-bottom: 35px;
+}
+.blue p {
+    font-size: 24px;
+    line-height: 32px;
+
+}
+.plain {
+    text-align: left;
+    font-family: "Noto Sans", Helvetica, Arial, sans-serif;
+    position: relative;
+    padding-top: 35px;
+     padding-bottom: 35px;
+
+}
+.plain p {
+    font-size: 24px;
+    line-height: 32px;
+
+}
+.blue img {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.plain img {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.img-caption {
+    text-align: center;
+    color: #A2B3BC;
+    font-size: 18px;
+    font-weight: 100;
+
+}
+
+.blue .img-caption {
+    font-size: 18px;
+    margin-top: -2px;
+    margin-bottom: 30px;
+}
+.plain .img-caption {
+    font-size: 18px;
+        margin-top: -2px;
+        margin-bottom: 30px;
+
+}
+
+
+.jump-to > ul > li > a {
+    text-align: left;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 24px;
+    color: #E26A6A;
+    line-height: 55px;
+    font-weight: 700;
+    
+}
+.jump-to {    
+    text-align: left;
+        color: #E26A6A;
+width: 350px;
+
+}
+.bottom {
+position: absolute;
+	bottom: 100;
+	right: 0;
+	width: 200px;
+	height: 200px;
+    font-size: 36px;
+}
+.hero-stuff {
+    text-align: center;
+    margin-left: -75px;
+    width: 802px;
+}
+.hero-stuff > p {
+    margin-left: 15px; 
+}
+.loco-hero {
+    text-align: center;
+    padding: 45px;
+}
+
+.casestudy-btn {
+    /* Rectangle 3: */
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 60px;
+    padding-right: 60px;
+background: #FFFFFF;
+border: 1px solid #5BA1D6;
+border-radius: 28px;
+    color: #E26A6A;
+    font-family: "Noto Sans", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+.fullwidthbg {
+        background-color: #F5FBFF;
+
+}
+.loco-hero > h2 {
+        font-family: "Muli", Helvetica, Arial, sans-serif;
+
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 50px;
+    
+}
+.loco-hero > img {
+    padding-top: 35px;
+}
+.landing-btn {
+    text-align: center;
 }
