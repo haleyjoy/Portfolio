@@ -119,14 +119,17 @@ header nav ul > li {
    text-decoration: none;
      font-weight: 700;
  }
+header .fullwidthbg {
+    height: 677px;
+    background-image: url("../images/hero-background.png");
+    background-color: #ffffff;
 
+}
 
  header .hero{
   clear: left;
   display: block;
   position: relative;
-          background-image: url("../images/hero-background.png");
-  background-color: #ffffff;
 
  }
 
@@ -242,19 +245,32 @@ body .icons {
     padding-left: 20px;
     
 }
-.connect {
-    margin: 0 0 0 0;
+.connect-item {
+        list-style-type: none;
+    position: relative;
+    width: 80px;
+        color: #E26A6A;
+    display: inline-block;
+    padding: 25px;
+
     
 }
+.connect-item > a > i {
+    font-size: 40px;
+    
+}
+.connect-item > i {
+    font-size: 40px;
+}
 .connect > ul {
+    
         text-align: center;
 
 
 }
 .connect > ul > li {
-    list-style-type: none;
+    
     font-size: 36px;
-    color: #E26A6A;
     
 }
 h4 {
@@ -356,6 +372,8 @@ line-height: 70px;
 .blue img {
     margin-top: 15px;
     margin-bottom: 5px;
+        text-align: left;
+
 }
 .plain img {
     margin-top: 15px;
