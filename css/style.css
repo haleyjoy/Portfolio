@@ -222,6 +222,7 @@ h3 {
   display: inline;
   height: 65px;
   padding: 25px;
+    padding-top: 60px;
     opacity: 0.5;
     filter: alpha(opacity=50);
     
@@ -435,6 +436,9 @@ position: absolute;
 .loco-hero {
     text-align: center;
     padding: 45px;
+}
+.streetsweet-logo {
+margin-left: -50%;
 }
 
 .casestudy-btn {
