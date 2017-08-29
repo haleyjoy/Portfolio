@@ -56,6 +56,7 @@ p {
 .container {
     width: 750px;
   }
+
 }
 @media (min-width: 992) {
   .container {
@@ -122,9 +123,11 @@ header nav ul > li {
      font-weight: 700;
  }
 header .fullwidthbg {
-    height: 677px;
+height: 650px;
     background-image: url("../images/hero-background.png");
+    background-repeat: no-repeat;
     background-color: #ffffff;
+    background-position: top
 
 }
 
@@ -249,6 +252,9 @@ body .icons {
     padding-top: 20px;
     padding-left: 20px;
     
+}
+.connect {
+    padding-top: 20px;
 }
 .connect-item {
         list-style-type: none;
@@ -466,6 +472,42 @@ border-radius: 28px;
         background-color: #F5FBFF;
 
 }
+.testimonials > .fullwidthbg {
+        background-color: #F5FBFF;
+
+}
+.person {
+    padding-bottom: 20px;
+        font-size: 14px;
+    font-weight: 100;
+    color: #627880;
+}
+.quote {
+        font-size: 16px;
+    font-weight: bold;
+    line-height: 27px;
+    letter-spacing: .06px;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+.testimonial-item-div {
+   font-family: "Muli", Helvetica, Arial, sans-serif;
+    color: #2C3C42;
+    
+
+}
+.testimonial-item .line {
+    color: #E26A6A;
+    
+}
+.testimonial-item {
+    text-align: center;
+      list-style-type: none;
+    padding: .1em;
+
+
+}
 .loco-hero > h2 {
         font-family: "Muli", Helvetica, Arial, sans-serif;
 
@@ -480,4 +522,13 @@ border-radius: 28px;
 }
 .landing-btn {
     text-align: center;
+}
+.resize-image {
+    width: 70%;
+}
+.resize-image2 {
+    width: 100%;
+}
+.resize-image3 {
+    width: 60%;
 }
