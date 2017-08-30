@@ -56,6 +56,7 @@ p {
 .container {
     width: 750px;
   }
+    
 
 }
 @media (min-width: 992) {
@@ -229,9 +230,11 @@ h3 {
   display: inline;
   height: 55px;
   padding: 20px;
-    padding-top: 50px;
+    padding-top: 35px;
+    padding-bottom: 50px;
     opacity: 0.5;
     filter: alpha(opacity=50);
+   
     
     
 }
@@ -531,4 +534,10 @@ border-radius: 28px;
 }
 .resize-image3 {
     width: 60%;
+}
+.resize-image4 {
+    margin-left: 35px;
+    margin-right: 40px;
+    width: 400px;
+    margin-bottom: 20px;
 }
