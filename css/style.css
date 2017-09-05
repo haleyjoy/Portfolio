@@ -81,7 +81,14 @@ font-size: 18px;
     h2 {
         font-size: 30px;
     }
-    .container { width: 600px;}
+    .container { width: 650px;}
+    .paragraph {
+        font-size: 30px; 
+        height: 700px;
+    }
+    .resize-image4 {
+        width: 110%;
+    }
 }
 
 
