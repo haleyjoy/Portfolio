@@ -61,9 +61,31 @@ p {
 }
 @media (min-width: 992) {
   .container {
-    width: 970px;
+    width: 970px; 
   }
 }
+
+ /* maybe remove maybe remove maybe remove maybe remove*/
+
+
+/* iphone 6*/
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+        p {
+font-size: 18px;
+    }
+    h1 {
+        font-size: 165px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    .container { width: 600px;}
+}
+
+
+
 .one-half {
   width: 46%;
 }
@@ -89,6 +111,7 @@ p {
      color: #000000;
     }
 }
+
 
 /* Header */
 header {
@@ -224,6 +247,7 @@ h3 {
 
 .paragraph {
   display: none;
+letter-spacing: .01em;
 }
 
 .icon-control {
@@ -250,10 +274,12 @@ body .icons {
 }
 
 .skills p {
-    line-height: 20px;
+    line-height: 22px;
+    font-size: 14px;
     height: 270px;
     padding-top: 20px;
     padding-left: 20px;
+
     
 }
 .connect {
@@ -536,8 +562,6 @@ border-radius: 28px;
     width: 60%;
 }
 .resize-image4 {
-    margin-left: 35px;
-    margin-right: 40px;
-    width: 400px;
+    width: 95%;
     margin-bottom: 20px;
 }
