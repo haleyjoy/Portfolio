@@ -65,55 +65,50 @@ p {
   }
 }
 
- /* maybe remove maybe remove maybe remove maybe remove*/
-
-
-/* iphone 6*/
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 667px) {
-        p {
-font-size: 18px;
+/* MOBILE PORTRAIT (320x480) */
+/*
+@media (min-width: 320px) {
+.container {
+    width: 280px;
     }
-    h1 {
-        font-size: 165px;
-    }
-    h2 {
-        font-size: 30px;
-    }
-    .one-half {
-        width: 46%;
-    }
-    .container { width: 650px;}
-    .paragraph {
-        height: 900px;
-        color: blue;
+  .dot {
+    visibility: hidden;
+        width: 0px;
     }
     p {
-         font-size: 60px; 
+        font-size: 2px;
     }
-    .resize-image4 > img {
-        width: 170%;
+ header nav ul > li > a {
+
+   color:#E26A6A;
+   text-decoration: none;
+     font-weight: 700;
+         font-size: 12px;
+     padding: 2px;
+
+ }
+    header nav ul {
+     position: absolute;
+     top: 100px;
+     left: -230px;
+  text-align: center;
+width: 300px;
+}
+    header .site-logo img {
+
+position: absolute;
+     top: 0px;
+align-content: center;
+}
+.one-half {
+
+    text-align: center;
+    width: 40%;
     }
-    .person {
-    padding-bottom: 20px;
-        font-size: 36px;
-    font-weight: 100;
-    color: #627880;
-}
-.quote {
-        font-size: 42px;
-    font-weight: bold;
-    line-height: 47px;
-    letter-spacing: .06px;
-    width: 600px;
-    margin-left: 0px;
-    margin-right: 0px;
 
 }
-}
-
-
+*/
+/* ... */
 
 .one-half {
   width: 46%;
@@ -132,7 +127,7 @@ font-size: 18px;
     width: 1170px;
   }
 }
-/* Media Queries Assignment */
+
 /* min-width of 40" tv */
 @media tv (min-width: 1920px) {
   header .hero h1 p{
