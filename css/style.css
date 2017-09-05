@@ -248,13 +248,15 @@ h3 {
 .paragraph {
   display: none;
 letter-spacing: .01em;
+    padding-left: 20px;
+    height: 550px;
 }
 
 .icon-control {
   display: inline;
   height: 55px;
   padding: 20px;
-    padding-top: 35px;
+    padding-top: 1px;
     padding-bottom: 50px;
     opacity: 0.5;
     filter: alpha(opacity=50);
