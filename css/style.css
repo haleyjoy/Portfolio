@@ -369,7 +369,7 @@ padding: 35px;
     padding-bottom: 75px;
 text-align: center;
 position: relative;
-height:400px;
+height:440px;
     
 
 }
@@ -475,12 +475,13 @@ line-height: 70px;
     color: #E26A6A;
     line-height: 55px;
     font-weight: 700;
+
     
 }
 .jump-to {    
     text-align: left;
         color: #E26A6A;
-width: 350px;
+
 
 }
 .bottom {
@@ -493,8 +494,6 @@ position: absolute;
 }
 .hero-stuff {
     text-align: center;
-    margin-left: -75px;
-    width: 802px;
 }
 .hero-stuff > p {
     margin-left: 15px; 
@@ -564,12 +563,13 @@ border-radius: 28px;
 
 }
 .loco-hero > h2 {
-        font-family: "Muli", Helvetica, Arial, sans-serif;
-
+    text-align: center;
+        font-family: "Muli", Helvetica, Arial, sans-serif;    
     padding-top: 30px;
     padding-bottom: 20px;
     font-weight: 700;
     font-size: 50px;
+    margin-top: 12px;
     
 }
 .loco-hero > img {
