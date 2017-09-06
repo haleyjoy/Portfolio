@@ -27,6 +27,7 @@ ul > li > a {
 }
 .mobile-hide {
 width: 100%;
+    margin-bottom: -8px;
 }
 
 p {
@@ -51,6 +52,7 @@ h5 {
     height: 80px;
     padding-bottom: 20px;
 }
+
 .nav2 {
     padding-left: 25px;
 }
