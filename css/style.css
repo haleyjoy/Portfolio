@@ -76,19 +76,23 @@ a {
 }
 .button1 { 
      text-align: center;
-    padding: 10px;
-    padding-top: 12px;
+    padding-bottom: 10px;
+    padding-top: 14px;
+
 
 background: #FFFFFF;
-border: 1px solid #5BA1D6;
+border: 1px solid #E26A6A;
 border-radius: 28px;
 /* VIEW CLICKABLE PROTO: */
-font-size: 24px;
+font-size: 18px;
 color: #E26A6A;
 letter-spacing: 0;
-    width: 300px;
+    width: 260px;
     height: 30px;
     margin: auto;
+}
+.button1:hover {
+    background-color: #FCF0F0;
 }
 .u-max-full-width{
     text-align: center;
