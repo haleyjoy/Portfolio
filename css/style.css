@@ -100,9 +100,10 @@ letter-spacing: 0;
     text-align: center;
 }
 .italic {
+    text-align: center;
     font-weight: 700;
     letter-spacing: .02em;
-    height: 165px;
+    height: 190px;
 }
 
 .blue {
