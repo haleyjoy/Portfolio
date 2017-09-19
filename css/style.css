@@ -112,3 +112,6 @@ letter-spacing: 0;
 .caption {
     color: #A0B1BA;
 }
+.smaller img {
+    padding: 5px;
+}
