@@ -131,3 +131,11 @@ left:0px;
 .testimonial {
     vertical-align: bottom;
 }
+
+.nospace {
+    margin-bottom: -18px;
+}
+em {
+    color: #E85F44;
+    font-style: normal;
+}
