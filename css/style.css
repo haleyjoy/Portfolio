@@ -143,3 +143,55 @@ em {
 .logo {
     max-height: 130px;
 }
+.case-rewaxation {
+background-image: url("../images/casestudycircle-rewax.png");
+    height: 160px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.case-happyhour {
+background-image: url("../images/casestudycircle-happyhour.png");
+    height: 160px;
+      background-size: cover;
+    background-repeat: no-repeat;
+}
+.case-lovenote {
+background-image: url("../images/casestudycircle-lovenote.png");
+    height: 160px;
+      background-size: cover;
+    background-repeat: no-repeat;
+}
+.case-locomoda {
+background-image: url("../images/casestudycircle-locomoda.png");
+    height: 160px;
+      background-size: cover;
+    background-repeat: no-repeat;
+}
+.case-streetsweet {
+background-image: url("../images/casestudycircle-streetsweet.png");
+    height: 160px;
+      background-size: cover;
+    background-repeat: no-repeat;
+}
+.case-wellkeptchaos {
+background-image: url("../images/casestudycircle-wellkeptchaos.png");
+    height: 160px;
+      background-size: cover;
+    background-repeat: no-repeat;
+}
+h8 {
+    font-size: 26px;
+    color: #FFFFFF;
+   
+}
+h9 {
+    color: #FFFFFF;
+     font-weight: 100;
+}
+.u-max-full-width .bg {
+background-color: rgba(226, 106, 106, 0.7);height: 72px;
+}
+.u-max-full-width .bg:hover {
+background-color: rgba(226, 106, 106, 0.9);height: 72px;
+}
