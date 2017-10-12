@@ -95,6 +95,25 @@ letter-spacing: 0;
 }
 .button1:hover {
     background-color: #FCF0F0;
+}.button12 { 
+     text-align: center;
+    padding-bottom: 10px;
+    padding-top: 14px;
+
+
+background: #FFFFFF;
+border: 1px solid #E26A6A;
+border-radius: 28px;
+/* VIEW CLICKABLE PROTO: */
+font-size: 18px;
+color: #E26A6A;
+letter-spacing: 0;
+    width: 100%;
+    height: 30px;
+    margin: auto;
+}
+.button12:hover {
+    background-color: #FCF0F0;
 }
 .u-max-full-width{
     text-align: center;
