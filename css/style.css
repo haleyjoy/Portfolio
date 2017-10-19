@@ -95,7 +95,34 @@ letter-spacing: 0;
 }
 .button1:hover {
     background-color: #FCF0F0;
-}.button12 { 
+    
+}
+.button3 { 
+     text-align: center;
+    padding-bottom: 32px;
+    padding-top: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+
+
+background: #FFFFFF;
+border: 1px solid #E26A6A;
+border-radius: 28px;
+/* VIEW CLICKABLE PROTO: */
+font-size: 18px;
+color: #E26A6A;
+letter-spacing: 0;
+width: 300px;
+    height: 30px;
+    margin: auto;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.button3:hover {
+    background-color: #FCF0F0;}
+
+
+.button12 { 
      text-align: center;
     padding-bottom: 10px;
     padding-top: 14px;
