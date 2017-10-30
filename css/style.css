@@ -26,8 +26,9 @@ ul > li > a {
     text-align: center;
 }
 .mobile-hide {
-width: 100%;
+width: 100%
     vertical-align: bottom;
+    display: table-cell;
 }
 
 p {
@@ -240,4 +241,7 @@ background-color: rgba(226, 106, 106, 0.7);height: 72px;
 }
 .u-max-full-width .bg:hover {
 background-color: rgba(226, 106, 106, 0.9);height: 72px;
+}
+.one {
+    margin-bottom: 10px;
 }
