@@ -227,6 +227,13 @@ background-image: url("../images/casestudycircle-wellkeptchaos.png");
       background-size: cover;
     background-repeat: no-repeat;
 }
+.case-oakspace {
+background-image: url("../images/casestudycircle-oakspace.png");
+    height: 160px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
 h8 {
     font-size: 26px;
     color: #FFFFFF;
