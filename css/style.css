@@ -234,6 +234,13 @@ background-image: url("../images/casestudycircle-oakspace.png");
     background-repeat: no-repeat;
 
 }
+.case-lilypad {
+background-image: url("../images/casestudycircle-lilypad.png");
+    height: 160px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
 h8 {
     font-size: 26px;
     color: #FFFFFF;
