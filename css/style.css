@@ -241,6 +241,13 @@ background-image: url("../images/casestudycircle-lilypad.png");
     background-repeat: no-repeat;
 
 }
+.case-joneslimo {
+background-image: url("../images/casestudycircle-joneslimo.png");
+    height: 160px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
 h8 {
     font-size: 26px;
     color: #FFFFFF;
