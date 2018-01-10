@@ -260,7 +260,7 @@ background-image: url("../images/Oakspace/oaksquare4.png");
     background-repeat: no-repeat;
 
 }
-.case-oakspace3:hover {
+.case-oakspace3:hover { 
 background-image: url("../images/Oakspace/oaksquare2.png");
     height: 400px;
     background-size:cover;
