@@ -190,6 +190,9 @@ em {
 .logo {
     max-height: 130px;
 }
+.logo2 {
+    max-height: 100px;
+}
 .case-rewaxation {
 background-image: url("../images/casestudycircle-rewax.png");
     height: 160px;
@@ -234,6 +237,35 @@ background-image: url("../images/casestudycircle-oakspace.png");
     background-repeat: no-repeat;
 
 }
+.case-oakspace2 {
+background-image: url("../images/Oakspace/oaksquare3.png");
+    height: 400px;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.case-oakspace2:hover {
+background-image: url("../images/Oakspace/oaksquare1.png");
+    height: 400px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-size: 0;
+}
+
+.case-oakspace3 {
+background-image: url("../images/Oakspace/oaksquare4.png");
+    height: 400px;
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+.case-oakspace3:hover {
+background-image: url("../images/Oakspace/oaksquare2.png");
+    height: 400px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-size: 0;
+
+}
 .case-lilypad {
 background-image: url("../images/casestudycircle-lilypad.png");
     height: 160px;
@@ -256,6 +288,11 @@ h8 {
 h9 {
     color: #FFFFFF;
      font-weight: 100;
+}
+.textbg {
+    margin-left: 7px;
+    max-width: 43px;
+        background-color: rgba(76, 72, 72, 0.7);height: 72px;
 }
 .u-max-full-width .bg {
 background-color: rgba(226, 106, 106, 0.7);height: 72px;
