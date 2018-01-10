@@ -248,7 +248,9 @@ background-image: url("../images/Oakspace/oaksquare1.png");
     height: 400px;
     background-size:cover;
     background-repeat: no-repeat;
-    font-size: 0;
+    text-indent: -2050px;
+    font-size: 0px;
+    
 }
 
 .case-oakspace3 {
@@ -263,7 +265,9 @@ background-image: url("../images/Oakspace/oaksquare2.png");
     height: 400px;
     background-size:cover;
     background-repeat: no-repeat;
-    font-size: 0;
+    text-indent: -2050px;
+    font-size: 0px;
+
 
 }
 .case-lilypad {
