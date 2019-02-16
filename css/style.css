@@ -277,6 +277,13 @@ background-image: url("../images/casestudycircle-lilypad.png");
     background-repeat: no-repeat;
 
 }
+.case-heritageauctions {
+background-image: url("../images/casestudycircle-heritageauctions.png");
+    height: 160px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
 .case-joneslimo {
 background-image: url("../images/casestudycircle-joneslimo.png");
     height: 160px;
