@@ -317,3 +317,20 @@ background-color: rgba(226, 106, 106, 0.9);height: 72px;
 .eightyfive-percent {
     width: 85%;
 }
+
+.expandable {
+   height: 48px;
+   overflow: hidden;
+   position: relative;
+}
+.expander {
+   color: #E26A6A;
+   cursor: pointer;
+}
+.fade {
+   height: 48px;
+   width: 100%;
+   position: absolute;
+   bottom: 0;
+   background: linear-gradient(rgba(255,255,255,0) 50%, rgba(255,255,255,1) 100%);
+}
