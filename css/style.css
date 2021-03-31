@@ -282,6 +282,12 @@ background-image: url("../images/casestudycircle-heritageauctions.png");
     height: 160px;
     background-size: cover;
     background-repeat: no-repeat;
+}
+.case-capitalone {
+background-image: url("../images/casestudycircle-capitalone.png");
+    height: 160px;
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
 .case-joneslimo {
