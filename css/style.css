@@ -283,6 +283,21 @@ background-image: url("../images/casestudycircle-heritageauctions.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.case-realgeeks {
+background-image: url("../images/casestudycircle-realgeeks.png");
+    height: 160px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.case-masergy {
+background-image: url("../images/casestudycircle-masergy.png");
+    height: 160px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .case-capitalone {
 background-image: url("../images/casestudycircle-capitalone.png");
     height: 160px;
