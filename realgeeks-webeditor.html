@@ -61,7 +61,7 @@
                      
                 </ul>
                 <div class = "centered">
-                    <h5>RealGeeks - Website Editor</h5><h4>2022 - Customisable Real Estate Agent Websites<br>Lead Generation Tools</h4>
+                    <h5>RealGeeks - Website Editor 2.0</h5><h4>2022 - Customisable Real Estate Agent Websites<br>Lead Generation Tools</h4>
         </div>
     </div>
     <div class="container">
@@ -80,22 +80,20 @@
                         <a href="#goal">The Solution</a>
                     </li>
                      <li class="nav2">
-                        <a href="#process">Process</a>
-                    </li>
-                     <li class="nav2">
                         <a href="#results">Results</a>
                     </li>
                      
                 </ul>
-                <img alt="Rules" src="images/realgeeks/Workflows.png">
+                <br><br> <img alt="Website Editor" src="images/realgeeks/Website-editor.png">
             
-  </div></div></div><br></div><a name="theproblem"></a>
+  </div></div></div></div><a name="theproblem"></a>
     <div class="container">
          <div class="row">
              <br><h5>The Problem</h5><br>
-            <p>Real Estate Agents utilizing the RealGeeks Leads Manager CRM also have access to “Drip” - an automated lead outreach platform.  While Drip did have rich features for creating email/text templates, up until this project began, the campaign template options within Drip were stale and rigid- not accounting for many “real” experiences that agents and their clients would actually come up against. <br>
-                RG Agents were pleading with us for a way they could automate email and text campaigns triggered by specific events (new lead, home closings, birthdays, etc.).  We also saw an opportunity to warm up cold leads with automated messaging campaigns.
-                
+            <p>The RealGeeks product suite offers a full suite of features for individual Real Estate Agents or small Real Estate brokerages.  The multi-pronged approach includes a CRM for managing leads and a work pipeline, as well as a customizable personal website with Zillow-like searchable listings that leads can save and engage agents on.  <br>
+                Despite the websites having gorgeous, contemporary lead-facing designs, agents complained regularly about the difficulty of using the legacy website editor to make adjustments to their sites.  Additonally, some customers utilized our designated third-party service for further specific tailoring of their site- but the service was set to retire EOY. <br>
+                It was clear there was a strong need for RG Web Editor 2.0.                
+                <br><br> <img alt="Website Editor" src="images/realgeeks/legacy_web_editor.png">
                  </p>
              
          
@@ -104,9 +102,7 @@
     <div class="container">
          <div class="row">
              <br><h5>My Role</h5><br>
-            <p>I led the research and design efforts as we created a new, flexible, easy-to-use outreach campaign tool.  
-                We needed to address the UX/UI in both the Drip system as well as Lead Manager (CRM) in order to create a cohesive and clear experience for agents using these tools.  I also created detailed code test guides for the developers to ensure the “plain english” conditional statement generator would work properly- ensuring a crystal-clear explanation would show for each campaign set up in Drip, setting expectations for the agent properly.
-
+            <p>Collaborating closely with the Director of Product and CTO, I led research, design, and testing efforts on the RealGeeks Website Editor 2.0.  I established rotating bi-weekly focus groups with Agents, varying the length of time they’d been using the RealGeeks platform.  
             </p>
              
          
@@ -114,47 +110,21 @@
     <div class="container">
          <div class="row">
              <br><h5>The Solution</h5><br>
-            <p>Working closely with my product and dev partners, the team set out to build a new tool within the Drip system for lead outreach campaign setup.  We knew we needed this tool to be highly customizable - so we planned a wizard-style tool with conditional features, giving agents full control over their outreach campaigns, while maintaining guardrails to prevent “impossible” scenarios.  This new tool would also communicate clearly the expected results of the campaign in plain english, and show clear summaries of the decisions agents are making step-by-step.
+            <p>After compiling a detailed list of the existing rich features in the legacy web editor, I led card sorting exercises and design workshops with agents, product team members and developers.  We determined the biggest need was for a “live preview” - and a sidebar editor - so agents could truly make use of the incredible customization features on offer.<br>
+                Customers who had previously been paying our designated third-party service to custom-develop parts of their site could cut those unneccessary expenses and continue to use their sites despite the third-party retirement.
             </p>
              
          
-        </div> </div><br><a name="process"></a>
-    <div class="blue">
+        </div> </div> 
+        <div class="blue">
     <div class="container">
-         <div class="row">
-             <br><h5>Process</h5><br><h4>Research / Strategy</h4>
-            <p>I created focus groups of real estate agents using the RealGeeks platform.  
-                We created a thorough list of wants and needs for outreach campaign creation, and gathered a better understanding surrounding the pain points of the legacy tools and what could be done better. <br><br>
-                Once I understood what would be necessary- I was able to separate out the necessary features into two buckets: “Workflow Rules”, and “Workflow Steps”.  
-                Users would create a set of rules to determine how the campaign gets set off, who it affects, how/when the campaign ends, and whether or not it repeats.  
-                Then, they’d utilize existing email/text templates and select how many hours/days/weeks apart each template would get sent out after the workflow start is triggered. <br><br>
-                It was highly likely that more filters/triggers would be beneficial down the road, such as location-based triggers that send out listing info to leads searching in a specific area- so I planned to design for a scalable step-by-step wizard setup that could be expanded to include more customization options in the future.
-                </p>
-                                  <h4>Rules/Conditional Logic</h4>
-         <p>The first step of the tool allows agents to customize when a workflow would auto-subscribe for a lead, filters to determine if a workflow applies to that lead, whether or not to auto-stop the workflow when a lead engages/replies, and when a workflow ends.  Some of these selections are conditional- <b>for example</b>: if a lead selects “Never subscribe to this Workflow automatically”, Lead Filters would need to be disabled, and auto-stop would default to “When Lead replies to communication”, and “Do not repeat” would be auto-selected.
-            <br><br> <img alt="Rules" src="images/realgeeks/conditionallogic.png">
-            <br><h4>Plain English Summary Generation</h4>
-            <p>Once the rules and filters are set up, I wanted to design a generatable summary that details the selections made in plain-english so the agent is 100% clear on what will happen when they activate a new workflow.<br>
-                In order to make sure these summaries were generated to properly reflect the selections users made, I created a Workflow “Summary” Template and wrote code tests addressing the conditional statements for developers.
-                                
-            </p> <img alt="Summary Generation Template" src="images/realgeeks/Summary-Generation-Template.png">
-        <br><h4>Workflow "Steps"</h4>
-         <p>I designed an easy-to-customize drag-and-drop interface allowing users to create a timeline of when certain email/text templates would go out to leads.  This interface allows for workflows to begin before, on, or after an important date.  Workflows could be up to 365 days long, and emails/texts could be customized to go out hours, days, or weeks apart per user preferences.        
-            <br><br><img alt="Workflow "Steps"" src="images/realgeeks/Home-Closing-Workflow.png"> </p>
-</p>
-    
-             
-             
-    </section>
-             <br>
-             <br><a name="results"></a></div></div></div>
-    <div class="container">
+
          <div class="row">
              <br><h5>Results</h5><br>
-            <p>This feature was adopted at record speed, with great enthusiasm!  Agents engaged with our in-app feedback survey rating the new features at an average of 95% satisfaction, saying they were already re-engaging cold leads within a month of setting up new outreach campaigns.  We saw an uptick in the use of Drip by an average of 65% daily in the first 6 weeks of usage.  The requests for additional filters/customization options poured in as users were so excited to set up highly detailed workflows.</p>
-        
+            <p>The newly designed web editor was warmly received and made way for even more design templates to be easily implemented and utilized.  In surveys sent via email and conducted via phone, agents rated the new web editor on average an 8.5/10, saying it revolutionized their personal website and successfully drew in more leads than before they used it.  Using the new Web Editor, they put forth gorgeous, contemporary sites that directly competed with Zillow/Redfin/etc.</p>
+            <br><img alt="Website Editor" src="images/realgeeks/Webeditor_single.png">
          
-        </div> </div><br>
+        </div> </div></div><br>
         
     
     <div class="container">
