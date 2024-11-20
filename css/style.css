@@ -305,6 +305,13 @@ background-image: url("../images/casestudycircle-capitalone.png");
     background-repeat: no-repeat;
 
 }
+.case-taxact {
+    background-image: url("../images/casestudycircle-taxact.png");
+        height: 160px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+    }
 .case-joneslimo {
 background-image: url("../images/casestudycircle-joneslimo.png");
     height: 160px;
