@@ -206,6 +206,18 @@ background-image: url("../images/casestudycircle-happyhour.png");
       background-size: cover;
     background-repeat: no-repeat;
 }
+.case-comcast1 {
+    background-image: url("../images/casestudycircle-comcastcircuitreports.png");
+        height: 160px;
+          background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .case-comcast2 {
+        background-image: url("../images/casestudycircle-comcastmasergy.png");
+            height: 160px;
+              background-size: cover;
+            background-repeat: no-repeat;
+        }
 .case-lovenote {
 background-image: url("../images/casestudycircle-lovenote.png");
     height: 160px;

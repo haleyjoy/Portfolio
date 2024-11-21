@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Haley Joy | Comcast - Circuit Reports Scheduler</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+      <link rel="stylesheet" href="css/style.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.ico">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+        <div class = "centered"><br><br>
+            <img class="logo" alt="Haley Joy" src="images/haleyjoy_logo.svg">
+            </div>
+        </div><br>
+                <div class = "centered">
+           <ul>
+                    <li class="nav">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class= "dot">  •  
+                    </li>
+                    <li class="nav">
+                        <a href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class= "dot">  •  
+                    </li>
+                     <li class="nav">
+                        <a href="aboutme.html">About</a>
+                    </li>
+                    <li class= "dot">  •  
+                    </li>
+                     <li class="nav">
+                        <a href="contact.html">Contact</a>
+                    </li>
+                     
+                </ul>
+                <div class = "centered">
+                    <h5>Comcast - Circuit Reports Scheduler</h5><h4>2023 - Masergy Report Scheduling</h4>
+        </div>
+    </div>
+    <div class="container">
+    <div class="row">
+        <div class = "centered">
+            
+            <ul>
+                    
+                    <li class="nav2">
+                        <a href="#theproblem">The Problem</a>
+                    </li>
+                     <li class="nav2">
+                        <a href="#myrole">My Role</a>
+                    </li>
+                     <li class="nav2">
+                        <a href="#goal">The Solution</a>
+                    </li>
+                     <li class="nav2">
+                        <a href="#process">Process</a>
+                    </li>
+                     <li class="nav2">
+                        <a href="#results">Results</a>
+                    </li>
+                     
+                </ul><br><br>
+                <video controls width="100%">
+
+                    <source src="/images/Comcast/CircuitReportsVideo.mp4" type="video/mp4" />
+                  
+                  </video>
+            
+  </div></div></div><br></div><a name="theproblem"></a>
+    <div class="container">
+         <div class="row">
+             <br><h5>The Problem</h5><br>
+            <p>Comcast Business/Masergy customers need the ability to monitor circuit health regularly- which often means monitoring thousands of circuits at once.  Research conducted showed weekly/Monthly/Quarterly reports to be the preferred method of distribution for circuit health for these customers.  However, the easy-to-download .csv reports were not customizable, and not formatted- so without manual intervention, they weren’t consumable or useful for Masergy customers. <br>
+                As a result, legible, consumable versions of Circuit Reports could only be manually created circuit by circuit, so a team of 24 Masergy employees were each spending 16-20 hours a week (for a combined total of over 400 hours a week) creating these weekly reports by hand for customers who had requested them.  Unfortunately, as a direct result, these employees were consistently behind on other tasks. <br>
+                In addition, 14 other report types existed throughout the ISC Portal - and the long-term plan was to address ALL of these report types, so a reusable pattern proved necessary.
+                
+                 </p>
+             
+         
+        </div> </div><br><a name="myrole"></a>
+    <div class="blue">
+    <div class="container">
+         <div class="row">
+             <br><h5>My Role</h5><br>
+            <p>Leading design efforts, I assessed the needs for Circuit Reports as well as the other report types throughout the ISC Portal.  I needed to design a pattern that could be reused in the future for all report types.  After designing a wizard-style report scheduler, I also needed to design a few new report export types.
+            
+            </p>
+             
+         
+        </div> </div></div><br><a name="goal"></a>
+    <div class="container">
+         <div class="row">
+             <br><h5>The Solution</h5><br>
+            <p>I began designing an easy-to-use, transparent solution that put report creation in the customer’s hands.  In collaboration with Development and Product teams, I iterated on Circuit Reports designs to work with technical limitations.  Customer testing helped us refine designs and content until the new tool was ready for rollout.
+                
+            </p>
+             
+         
+        </div> </div><br><a name="process"></a>
+    <div class="blue">
+    <div class="container">
+         <div class="row">
+             <br><h5>Process</h5><br><h4>Research / Strategy</h4>
+            <p>While the initial ask was to address Circuit Reports specifically, the designs needed to be reusable for other report types.  
+                After assessing the needs across the board, I set off to design an interaction pattern that could be tailored to fit the needs for other types of reports. I broke down the setup of reports into  “building block” steps, such as “Specify Report Schedule” and “Specify Recipients”.  These steps could be utilized for many report types in the future.
+                </p>
+                                  <h4>Report "Steps"</h4>
+         <p>Users would need to specify the <b>region</b> containing the circuits to be included in the report, <b>how often</b> the report should be sent out, <b>when</b> the report should begin going out, who should be <b>recipients</b> of the report, and which <b>file format</b> the report should arrive in.  <br>We managed to combine frequency and start date into one step, for four total steps in the creation process.  One step is expanded at a time, while the other steps are collapsed.  In order to move on to the next step, users are required to complete the step they’re on- so to provide transparency, I designed popovers on disabled buttons that explain to users what they need to complete before they can move on.  Upon each step’s completion, a nice neat “summary” was generated showing what the user selected, and an edit button became available in case they wanted to go back and make changes to selections made previously.  <br><br> <img alt="Report Steps" src="images/Comcast/circuitreports_stepssummary.png">    
+            </p> 
+        <br><h4>Consumable, Visual Report Formats</h4>
+         <p>I designed two different .PDF options for the Circuit Reports.  One simply showed the data in table format, and one showed individual graphs for each circuit. <br>
+            <br> <img alt="Report Steps" src="images/Comcast/CircuitReports_DetailedPDF.png">     <br><br>Additionally, some customers still wanted access to the unformatted .csv format, so we kept this as an option as well.      
+            <br><br> <img alt="Report Steps" src="images/Comcast/CircuitReports_Legacy.png">          
+</p>
+    
+             
+             
+    </section>
+             <br>
+             <br><a name="results"></a></div></div></div>
+    <div class="container">
+         <div class="row">
+             <br><h5>Results</h5><br>
+            <p>After rollout, once customers had a few weeks to adopt the new features and Masergy employees had time to adjust customer expectations and encourage them to create their own scheduled reports, we were thrilled to see that the 400+ hours a week that employees spent manually creating Circuit Reports was knocked down to <b>under 20 hours a week, a 95% reduction in time spent on manual Circuit Report generation</b>.  Customers were delighted with easier-to-read report PDFs, and enthusiastically asked for more report types to follow suit. The leadership team was motivated to prioritize tackling the next three report types after seeing these exciting results.
+            </p>
+        
+         
+        </div> </div><br>
+        
+    
+    <div class="container">
+    <div class="row">
+<br><br><br>
+                <div class = "centered footer">
+           <ul>
+                    <li class="nav">
+                        <p>haleyguilfoile@gmail.com • &copy; 2025 Haley Guilfoile - All Rights Reserved.</p>
+                    </li>
+                    <br>
+                    <li class="nav">
+                        <a href="mailto:haleyguilfoile@gmail.com?Subject=Hello%20Haley!" target="_top">Email</a>
+                    </li>
+                    <li class= "dot">  •  
+                    </li>
+                     <li class="nav">
+                        <a href="https://www.linkedin.com/in/haley-guilfoile-43042aaa/" target="_blank">LinkedIn</a>
+                    </li>
+                    <li class= "dot">  •  
+                    </li>
+                     <li class="nav">
+                        <a href= "haley_guilfoile_resume.pdf" download="haley_guilfoile_resume.pdf">Resume</a>
+                    </li>
+                     
+                </ul>
+        </div>
+        </div></div>
+     <a href ="#" class="go-top"><img alt="Go Top" src="images/go-top.png"></a>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script> $(document).ready(function() {
+            $(window).scroll(function() {
+        
+            if ($(this).scrollTop() > 200) {
+                $('.go-top').fadeIn(200);
+            } else {
+                $('.go-top').fadeOut(200);
+            }
+        });
+    $('.go-top').click(function(event) { event.preventDefault();
+    $('html, body').animate({scrollTop: 0}, 300);})
+       });
+    </script>
+</body>
+</html>
