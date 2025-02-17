@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Haley Joy | Heritage Auctions Nexus Application - Cataloging</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+      <link rel="stylesheet" href="css/style.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.ico">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+        <div class = "centered"><br><br>
+            <img class="logo" alt="Haley Joy" src="images/haleyjoy_logo.svg">
+            </div>
+        </div><br>
+                <div class = "centered">
+           <ul>
+                    <li class="nav">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class= "dot">  •  
+                    </li>
+                    <li class="nav">
+                        <a href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class= "dot">  •  
+                    </li>
+                     <li class="nav">
+                        <a href="aboutme.html">About</a>
+                    </li>
+                    <li class= "dot">  •  
+                    </li>
+                     <li class="nav">
+                        <a href="contact.html">Contact</a>
+                    </li>
+                     
+                </ul>
+        </div>
+    </div><br><br>
+    <div class="container">
+    <div class="row">
+        <div class = "centered">
+        <h5>Heritage Auctions</h5><h4>Nexus Enterprise and Mobile Application - Cataloging Tools</h4><section class="u-max-full-width">
+            
+  </div></div>
+         
+</div></div></div><br></div><a name="theproblem"></a>
+<div class="container">
+     <div class="row">
+         <br><h5>The Problem</h5><br>
+        <p>After 20+ years of taking notes in front of clients to try to remember and translate later, and running back and forth between shelves, storage, and carts, it was well past time to provide mobile support for catalogers and operations. Nexus is a permission-based centralized application designed to empower employees to handle their workload within one application.  By building Nexus mobile and providing solutions for on-the-go job families, we'd not only be improving and simplifying the work experience for employees, but we'd also reduce human error and expedite the operations processes by quite a bit.
+             </p>
+         
+     
+    </div> </div><br><a name="myrole"></a>
+<div class="blue">
+<div class="container">
+     <div class="row">
+         <br><h5>My Role</h5><br>
+        <p>I conducted on-site observation to better understand the needs of our operations and warehouse employees and how “lots” (sold and unsold items) are moved around before and after an auction.  After creating a mid-fi prototype, we did 80+ total hours of onsite testing with operational and warehouse employees across several departments, and refined the experience until we were satisfied with the simplicity of the experience and the increase in productivity.<br> 
+            Following launch, I also kept tabs on the new mobile application performance, and evangelized the incredible success in order to get buy-in from key stakeholders on next steps.
+        </p>
+         
+     
+    </div> </div></div><br><a name="goal"></a>
+<div class="container">
+     <div class="row">
+         <br><h5>The Solution</h5><br>
+        <p>
+            The overall Nexus experience would need to be a seamless experience so employees could swap between Desktop and Mobile as needed, but operational employees, ideally, wouldn’t need to revisit the desktop app at all during their process.  The biggest productivity gains to be made meant eliminating the walk back and forth between the laptop and warehouse tasks, as well as eliminating the opportunity for human error in having to memorize information or write it down from the desktop before utilizing that information in the warehouse. <br>
+
+            We focused on initially providing a mobile workflow for “pulling” “lots”, the process employees completed after each auction in which they’d grab sold and unsold items and sort/transport them to prepare for shipping or storage.  <br>
+<img alt="Mobile Operations Screens" src="images/heritage/mobile_operations.png"> 
+            We not only provided the information necessary to pull, scan, sort, and transport lots, but also automated the process so when an employee prepared one order, they could easily move on to the next order without having to seek out their next task.
+        </p>
+         
+     
+    </div> </div>
+</section>
+         <br>
+         <br><a name="results"></a></div></div></div>
+<div class="container">
+     <div class="row">
+         <br><h5>Results</h5><br>
+        <p>With these powerful new tools, operations employees were able to complete post-auction operations 33% faster and with a significant reduction in human error.  Training new employees took less than half the time it had previously.  After seeing the success of this first set of mobile features, I was able to get stakeholders on board with additional features for our cataloging team and shipping team.
+            <img alt="Mobile Operations Screens" src="images/heritage/mobile.png"> 
+             </p>
+    
+     
+    </div> </div><br>
+    
+
+<div class="container">
+<div class="row">
+<br><br><br>
+            <div class = "centered footer">
+       <ul>
+                <li class="nav">
+                    <p>haleyguilfoile@gmail.com • &copy; 2025 Haley Guilfoile - All Rights Reserved.</p>
+                </li>
+                <br>
+                <li class="nav">
+                    <a href="mailto:haleyguilfoile@gmail.com?Subject=Hello%20Haley!" target="_top">Email</a>
+                </li>
+                <li class= "dot">  •  
+                </li>
+                 <li class="nav">
+                    <a href="https://www.linkedin.com/in/haley-guilfoile-43042aaa/" target="_blank">LinkedIn</a>
+                </li>
+                <li class= "dot">  •  
+                </li>
+                 <li class="nav">
+                    <a href= "haley_guilfoile_resume.pdf" download="haley_guilfoile_resume.pdf">Resume</a>
+                </li>
+                 
+            </ul>
+    </div>
+    </div></div>
+ <a href ="#" class="go-top"><img alt="Go Top" src="images/go-top.png"></a>
+
+<!-- End Document
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script> $(document).ready(function() {
+        $(window).scroll(function() {
+    
+        if ($(this).scrollTop() > 200) {
+            $('.go-top').fadeIn(200);
+        } else {
+            $('.go-top').fadeOut(200);
+        }
+    });
+$('.go-top').click(function(event) { event.preventDefault();
+$('html, body').animate({scrollTop: 0}, 300);})
+   });
+</script>
+</body>
+</html>

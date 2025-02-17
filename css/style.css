@@ -295,6 +295,12 @@ background-image: url("../images/casestudycircle-heritageauctions.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
+.case-heritageoperations {
+    background-image: url("../images/casestudycircle-heritageoperations.png");
+        height: 160px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 
 .case-realgeeks {
 background-image: url("../images/casestudycircle-realgeeks.png");
@@ -352,10 +358,10 @@ h9 {
         background-color: rgba(76, 72, 72, 0.7);height: 72px;
 }
 .u-max-full-width .bg {
-background-color: rgba(226, 106, 106, 0.7);height: 72px;
+background-color: rgba(47, 115, 179, 0.9);height: 72px;
 }
 .u-max-full-width .bg:hover {
-background-color: rgba(226, 106, 106, 0.9);height: 72px;
+background-color: rgb(48, 69, 164);height: 72px;
 }
 .one {
     margin-bottom: 10px;
