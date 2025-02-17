@@ -314,7 +314,12 @@ background-image: url("../images/casestudycircle-realgeeks.png");
         background-size: cover;
         background-repeat: no-repeat;
     }
-
+    .case-realgeeks-mobile {
+        background-image: url("../images/casestudycircle-realgeeks-mobile.png");
+            height: 160px;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
 .case-masergy {
 background-image: url("../images/casestudycircle-masergy.png");
     height: 160px;
