@@ -144,7 +144,8 @@ letter-spacing: 0;
     background-color: #FCF0F0;
 }
 .u-max-full-width{
-    text-align: center;
+    vertical-align: middle; /* vertical align*/
+  text-align: center;
 }
 .italic {
     text-align: center;
@@ -193,19 +194,6 @@ em {
 .logo2 {
     max-height: 100px;
 }
-.case-rewaxation {
-background-image: url("../images/casestudycircle-rewax.png");
-    height: 160px;
-    background-size: cover;
-    background-repeat: no-repeat;
-
-}
-.case-happyhour {
-background-image: url("../images/casestudycircle-happyhour.png");
-    height: 160px;
-      background-size: cover;
-    background-repeat: no-repeat;
-}
 .case-comcast1 {
     background-image: url("../images/casestudycircle-comcastcircuitreports.png");
         height: 160px;
@@ -218,77 +206,6 @@ background-image: url("../images/casestudycircle-happyhour.png");
               background-size: cover;
             background-repeat: no-repeat;
         }
-.case-lovenote {
-background-image: url("../images/casestudycircle-lovenote.png");
-    height: 160px;
-      background-size: cover;
-    background-repeat: no-repeat;
-}
-.case-locomoda {
-background-image: url("../images/casestudycircle-locomoda.png");
-    height: 160px;
-      background-size: cover;
-    background-repeat: no-repeat;
-}
-.case-streetsweet {
-background-image: url("../images/casestudycircle-streetsweet.png");
-    height: 160px;
-      background-size: cover;
-    background-repeat: no-repeat;
-}
-.case-wellkeptchaos {
-background-image: url("../images/casestudycircle-wellkeptchaos.png");
-    height: 160px;
-      background-size: cover;
-    background-repeat: no-repeat;
-}
-.case-oakspace {
-background-image: url("../images/casestudycircle-oakspace.png");
-    height: 160px;
-    background-size: cover;
-    background-repeat: no-repeat;
-
-}
-.case-oakspace2 {
-background-image: url("../images/Oakspace/oaksquare3.png");
-    height: 400px;
-    background-size:cover;
-    background-repeat: no-repeat;
-}
-.case-oakspace2:hover {
-background-image: url("../images/Oakspace/oaksquare1.png");
-    height: 400px;
-    background-size:cover;
-    background-repeat: no-repeat;
-    text-indent: -2050px;
-    font-size: 0px;
-    
-}
-
-.case-oakspace3 {
-background-image: url("../images/Oakspace/oaksquare4.png");
-    height: 400px;
-    background-size:cover;
-    background-repeat: no-repeat;
-
-}
-.case-oakspace3:hover { 
-background-image: url("../images/Oakspace/oaksquare2.png");
-    height: 400px;
-    background-size:cover;
-    background-repeat: no-repeat;
-    text-indent: -2050px;
-    font-size: 0px;
-
-
-}
-.case-lilypad {
-background-image: url("../images/casestudycircle-lilypad.png");
-    height: 160px;
-    background-size: cover;
-    background-repeat: no-repeat;
-
-}
 .case-heritageauctions {
 background-image: url("../images/casestudycircle-heritageauctions.png");
     height: 160px;
@@ -341,19 +258,12 @@ background-image: url("../images/casestudycircle-capitalone.png");
         background-repeat: no-repeat;
     
     }
-.case-joneslimo {
-background-image: url("../images/casestudycircle-joneslimo.png");
-    height: 160px;
-    background-size: cover;
-    background-repeat: no-repeat;
-
-}
 h8 {
-    font-size: 26px;
+    font-size: calc(17px + 0.390625vw);
     color: #FFFFFF;
    
 }
-h9 {
+h9 {font-size: calc(12px + 0.390625vw);
     color: #FFFFFF;
      font-weight: 100;
 }
@@ -363,10 +273,10 @@ h9 {
         background-color: rgba(76, 72, 72, 0.7);height: 72px;
 }
 .u-max-full-width .bg {
-background-color: rgba(47, 115, 179, 0.9);height: 72px;
+background-color: rgba(47, 115, 179, 0.9);height: calc(65px + 0.390625vw);
 }
 .u-max-full-width .bg:hover {
-background-color: rgb(48, 69, 164);height: 72px;
+background-color: rgb(48, 69, 164);height: calc(65px + 0.390625vw);
 }
 .one {
     margin-bottom: 10px;
